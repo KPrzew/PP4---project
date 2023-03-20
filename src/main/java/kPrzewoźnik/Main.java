@@ -21,8 +21,6 @@ public class Main {
         }
         names.stream()
                 .filter(name -> name.endsWith("a")) //Lambda name: name[-1] == "a"
-                .filter(name -> name.startsWith("A"))
-                .map(String::toUpperCase)
                 .forEach(greeter::greet);
     }
 }
