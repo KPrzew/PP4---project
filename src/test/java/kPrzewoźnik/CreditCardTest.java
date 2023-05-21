@@ -1,6 +1,10 @@
 package kPrzewoźnik;
 
 import org.junit.jupiter.api.Test;
+
+import kPrzewoźnik.creditcard.CreditBelowLimitException;
+import kPrzewoźnik.creditcard.CreditCard;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
