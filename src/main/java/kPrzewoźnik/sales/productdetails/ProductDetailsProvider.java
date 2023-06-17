@@ -1,9 +1,9 @@
-package kPrzewoźnik.sales;
+package kPrzewoźnik.sales.productdetails;
+
+import kPrzewoźnik.sales.productdetails.ProductDetails;
 
 import java.util.Optional;
 
-public class ProductDetailsProvider {
-    public Optional<ProductDetails> load(String productId) {
-        return Optional.empty();
-    }
+public interface ProductDetailsProvider {
+    public Optional<ProductDetails> load(String productId);
 }
